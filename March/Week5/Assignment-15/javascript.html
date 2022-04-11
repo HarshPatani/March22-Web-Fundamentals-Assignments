@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>harshpatani1923@gmail.com</title>
+</head>
+<body>
+    <h1>Geekster</h1>
+    <style>
+        .one{
+            background-color: aqua;
+        }
+        .two{
+            background-color: peru;
+        }
+        .three{
+            background-color: aqua;
+        }
+        .four{
+            background-color: peru;
+        }
+        .five{
+            background-color: aqua;
+        }
+    </style>
+    <script>
+        const names = ['virat','ronaldo','messi','dhoni','neymar']
+
+        const classList = ['one','two','three','four','five']
+
+        for(let i=0; i<names.length ; i++){
+            const newElement = document.createElement('p')
+            newElement.innerText = names[i]
+            newElement.classList.add(classList[i])
+            const target = document.querySelector('h1')
+            target.appendChild(newElement)
+        }
+
+    </script>
+</body>
+</html>
