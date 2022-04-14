@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>harshpatani1923@gmail.com</title>
+  </head>
+  <style>
+    /*********************************************************************
+    Q.add an image to HTML file using javascript and add event listeners 
+    to it such that when you move your mouse over that image the width and 
+    height of that should increase and when you move your mouse out of the 
+    image it should go back to original size *****************************
+    **********************************************************************/
+    body {
+      text-align: center;
+    }
+    img{
+      border-radius: 10px;
+    }
+  </style>
+  <body>
+    <h1>Hover on this image below⬇️</h1>
+    <img  id="image" src="hoverMe.png" width="500px" alt="image file" />
+    <script>
+      function mouseEnter() {
+        const img1= document.querySelector('img')
+        img1.style.width = "700px"
+        img1.style.transition = "0.5s"
+        img1.style.opacity = "1"
+      }
+      function mouseLeave() {
+        const img1= document.querySelector('img')
+        img1.style.width = "500px"
+        img1.style.transition = "0.5s"
+        img1.style.opacity = "0.6"
+      }
+        const img1= document.querySelector('img')
+        console.log(img1)
+        img1.addEventListener("mouseenter",mouseEnter);
+        img1.addEventListener("mouseleave",mouseLeave);
+    </script>
+
+  </body>
+</html>
