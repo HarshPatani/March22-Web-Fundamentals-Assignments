@@ -1,0 +1,66 @@
+.card{
+    border: 2px solid #1c24bd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+#image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #1c24bd;
+}
+
+.container{
+    width: 50%;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.name, .lname{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.btn{
+    all: unset;
+    padding: 5px 10px;
+    border: 1px solid #1c24bd;
+    cursor: pointer;
+    background-color: #1c24bd;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.btn:hover{
+    background-color: #3940c4;
+
+}
+
+.button-group{
+    margin-bottom: 20px;
+}
+span{
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0;
+    color: #1c24bd;
+}
+.email{
+    font-size: 20px;
+    font-style: italic;
+
+}

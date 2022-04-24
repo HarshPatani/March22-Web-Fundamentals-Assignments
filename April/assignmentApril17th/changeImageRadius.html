@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>harshpatani1923@gmail.com</title>
+  </head>
+  <style>
+    .container {
+      padding: 30px;
+      width: 500px;
+      box-shadow: 0 0 10px black;
+      margin: 100px auto;
+      text-align: center;
+    }
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: blueviolet;
+      color: white;
+      border: none;
+      border-radius: 10px;
+    }
+    img {
+      border-radius: 10px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <img
+        src="https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?cs=srgb&dl=pexels-helena-lopes-708440.jpg&fm=jpg"
+        alt=""
+        id="img1"
+        width="400px"
+        height="400px"
+      />
+      <br />
+      <button onclick="friends()">Friends</button>
+      <button onclick="family()">Family</button>
+    </div>
+    <script>
+      function friends() {
+        var imgRef = document.getElementById("img1");
+        imgRef.src =
+          "https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?cs=srgb&dl=pexels-helena-lopes-708440.jpg&fm=jpg";
+        imgRef.style.borderRadius = "10px";
+      }
+      function family() {
+        var imgRef = document.getElementById("img1");
+        imgRef.src =
+          "https://images.pexels.com/photos/2253879/pexels-photo-2253879.jpeg?cs=srgb&dl=pexels-emma-bauso-2253879.jpg&fm=jpg";
+        imgRef.style.borderRadius = "50%";
+      }
+    </script>
+  </body>
+</html>
