@@ -39,7 +39,8 @@ function displayData(recipeList) {
         <div class="recipe-card">
                 <img class="img" src="${element.recipe.image}"/>
                 <div class="flex-items">
-                    <p>${element.recipe.source}</p>
+                    <h4>Site Name:</h4>
+                    <p class="siteName">${element.recipe.source}</p>
                     <a href=${element.recipe.url}>View Recipe</a>
                 </div>
                 <div class="more-details">

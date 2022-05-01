@@ -11,10 +11,10 @@ main {
 }
 
 .search {
+  margin: 20px;
   background-color: white;
   width: 200px;
   position: relative;
-  margin-bottom: 20px;
   border-radius: 10px;
 }
 
@@ -55,6 +55,7 @@ input:focus {
   width: 300px;
   background-color: white;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .flex-items {
@@ -75,14 +76,12 @@ a {
   font-size: 16px;
   border-radius: 5px;
   text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 a:hover {
   background-color: rgb(56, 56, 249);
-}
-
-.more-details {
-  font-size: 10px;
 }
 
 .container {
@@ -93,4 +92,9 @@ a:hover {
 
 .label {
   font-size: 18px;
+}
+.siteName {
+  text-transform: uppercase;
+  font-size: 12px;
+  width: 100px;
 }
