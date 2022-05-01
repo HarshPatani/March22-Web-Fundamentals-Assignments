@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  background-color: rgb(189, 196, 224);
+  padding: 50px;
+}
+
+.search {
+  background-color: white;
+  width: 200px;
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+input {
+  background-color: white;
+  width: 100%;
+  outline: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+input:focus {
+  border: 2px solid blue;
+}
+
+#icon {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 24px;
+}
+
+#icon:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.img {
+  border-radius: 5px;
+  height: 200px;
+  width: 100%;
+}
+
+.recipe-card {
+  height: 350px;
+  padding: 8px;
+  border: 2px solid black;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.flex-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: blue;
+  width: 100px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+a:hover {
+  background-color: rgb(56, 56, 249);
+}
+
+.more-details {
+  font-size: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.label {
+  font-size: 18px;
+}
